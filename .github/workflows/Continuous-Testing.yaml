@@ -1,8 +1,4 @@
-name: Continuous image testing
-
-on:
-  schedule:
-    - cron: "0 1 * * *"
+name: Continuous 
 
 jobs:
   prepare-test-matrix:
